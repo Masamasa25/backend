@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 // модели
 
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('masaasr5_visum@localhost', 'masaasr5_visum@localhost', '253410Lmr', {
+const sequelize = new Sequelize('masaasr5_visumt', 'masaasr5_visum', '253410Lmr', {
   host: 'localhost',
   port: '3306',
   dialect: 'mysql',
