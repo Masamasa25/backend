@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize('masaasr5_visum', 'masaasr5_visum', '253410Lmr', {
-  host: 'localhost',
+  host: 'masaasr5.beget.tech',
   dialect: 'mysql',
 });
 
